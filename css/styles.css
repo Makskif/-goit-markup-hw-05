@@ -517,12 +517,12 @@ cursor: pointer;
     position: absolute;
 }
 
-.modal-close:hover
-.modal-close:focus {
+button:hover .modal-close,
+button:focus .modal-close {
   border: none;
 
 }
-.modal-close:hover .modal-close-svg {
+button:hover .modal-close-svg {
     fill: #ffffff;
 }
 
