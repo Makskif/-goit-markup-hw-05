@@ -624,8 +624,16 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   fill: transparent;
 
 }
-.modal-checkbox-label-span:checked {
+.modal-checkbox-input:checked + .modal-checkbox-label span{
   background-color:#404bbf;
   border: none;
   fill:#F4F4FD;
+}
+.modal-checkbox-link {
+  color:#4d5ae5;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
 }
